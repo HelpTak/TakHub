@@ -1,0 +1,11 @@
+local PlaceId = game.PlaceId
+
+if PlaceId == 6447798030 then
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/HelpTak/TakHub/main/FunkyFriday")()
+elseif PlacId == 3198259055 then
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/HelpTak/Soulshatters/main/TakHubSS")()
+else
+	game.Players.LocalPlayer:kick("Tak Hub Is Dont Have This Game Script, Sorry")
+	wait(1)
+	game:Shutdown()
+end
